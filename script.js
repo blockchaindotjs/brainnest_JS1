@@ -1,7 +1,7 @@
 function greetingPhase() {
     userName = prompt("Welcome to Rock Paper Scissors Game! Please enter a valid name to continue: ");
     if((userName == null ) || (userName.trim() == "")) {                                                    // Note: trim() method removes whitespace from both sides of a string.
-        alert("Please give it a chance! You might win it, but first please enter a valid username!");
+        alert("Please give it a chance! You might win it.");
         validRound = 5;
         gameOver(2);
     } else {
